@@ -1,0 +1,85 @@
+body {
+	background-color: #bcbdc2;
+}
+
+#screen img {
+	max-width: 100%;
+	width: 640px;
+}
+#screen {
+	background-color: #636c7b;
+	border-radius: 0.25em 0.25em 1em;
+	padding: 3% 5%;
+}
+
+#controls {
+	position: relative;
+}
+
+#dpad {
+	height: 30vmin;
+	width: 30vmin;
+	position: absolute;
+}
+
+#dpad button {
+	position: absolute;
+	width: 10vmin;
+	height: 10vmin;
+}
+
+#dpad button.up {
+	top: 0;
+	left: 10vmin;
+}
+
+#dpad button.down {
+	bottom: 0;
+	left: 10vmin;
+}
+
+#dpad button.left {
+	top: 10vmin;
+	left: 0;
+}
+
+#dpad button.right {
+	top: 10vmin;
+	right: 0;
+}
+
+#actions {
+	height: 12vmin;
+	width: 22vmin;
+	position: absolute;
+	right: 0;
+}
+
+#actions button {
+	position: absolute;
+	width: 10vmin;
+	height: 10vmin;
+}
+
+#actions button.a {
+	right: 0;
+	top: 0;
+}
+
+#actions button.b {
+	left: 0;
+	bottom: 0;
+}
+
+#meta {
+	height: 12vmin;
+	width: 22vmin;
+	position: absolute;
+	top: 40vmin;
+	left: 42vmin;
+}
+
+#meta button {
+	height: 5vmin;
+	width: 10vmin;
+}

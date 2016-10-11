@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<script type="text/javascript" src="app.js"></script>
+		<link type="text/css" rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section id="screen">
+			<img />
+		</section>
+		<section id="clients">
+			<span></span>
+		</section>
+		<section id="controls">
+			<section id="dpad">
+				<button onclick="sendKey(KEY.UP)" class="up">up</button>
+				<button onclick="sendKey(KEY.DOWN)" class="down">down</button>
+				<button onclick="sendKey(KEY.LEFT)" class="left">left</button>
+				<button onclick="sendKey(KEY.RIGHT)" class="right">right</button>				
+			</section>
+			<section id="actions">
+				<button onclick="sendKey(KEY.A)" class="a">a</button>
+				<button onclick="sendKey(KEY.B)" class="b">b</button>
+			</section>
+			<section id="meta">
+				<button onclick="sendKey(KEY.START)" class="start">start</button>
+				<button onclick="sendKey(KEY.SELECT)" class="select">select</button>
+			</section>
+		</section>
+	</body>
+</html>
